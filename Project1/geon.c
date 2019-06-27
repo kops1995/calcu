@@ -22,7 +22,9 @@ void main() {
 	printf("입력하신 두 개의 숫자의 합은 %d 입니다.\n", sum);
 	printf("입력하신 두 개의 숫자의 차는 %d 입니다.\n", sub);
 	printf("입력하신 두 개의 숫자의 곱은 %d 입니다.\n", mul);
-	printf("입력하신 두 개의 숫자의 몫은 %d 입니다.\n", div);
+	if (a > b) {
+		printf("입력하신 두 개의 숫자의 몫은 %d 입니다.\n", div);
+	}
 	printf("입력하신 두 개의 숫자의 나머지는 %d 입니다.\n", rem);
 
 	system("pause");
